@@ -51,3 +51,18 @@ n3 = float(input("Numero 3: "))
 
 prom = (n1+n2+n3)/3
 print(f"El promedio es: {prom:.2f}") # con .2f especificamos cuantos decimales queremos
+
+
+# Autor: Joel Narvaez
+# Materia: Programcion en Python
+# Fecha: 14 de agosto del 2026
+# Actividad: Pedir un numero entero y decir si es par o impar
+
+print("PAR O IMPAR")
+
+n = int(input("Entero: "))
+if n % 2 == 0:
+    print("Par")
+else:
+    print("Impar")
+
