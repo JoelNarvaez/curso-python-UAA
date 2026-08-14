@@ -1,6 +1,8 @@
 # Autor: Joel Narvaez
 # Materia: Programcion en Python
 
+# Fecha: 14 de agosto del 2026
+# Actividad: Multiplicacion de dos variables
 print("MULTIPLICACION DE DOS VARIABLES")
 a = float(input("Numero 1: "))
 b = float(input("Numero 2: "))
@@ -8,7 +10,6 @@ print("Multiplicacion: ", a * b, "\n")
 
 # Fecha: 14 de agosto del 2026
 # Actividad: Contar voacles usando asignacion directa
-
 print("CONTAR VARIABLES USANDO ASIGNACION DIRECTA")
 pal = input("Palabra: ").lower()
 voacles = pal.count("a") + pal.count("e") + pal.count("i") + pal.count("o") + pal.count("u") + pal.count("á") + pal.count("é") + pal.count("í") + pal.count("ó") + pal.count("ú")
@@ -54,10 +55,3 @@ elif edad >= 18 and edad <= 64:
     print("Adulto", "\n")
 else:
     print("Adulto mayor", "\n")
-
-
-
-
-
-
-
